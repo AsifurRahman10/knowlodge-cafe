@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co.com/28vPQ29/1.jpg",
+    "title": "Mastering React Hooks: A Beginner’s Guide",
+    "author_img": "https://i.ibb.co.com/jkhGfj7/boy1.png",
+    "author": "John Doe",
+    "posted_date": "2024-09-15",
+    "reading_time": 8,
+    "hashtags": ["#React", "#JavaScript", "#WebDevelopment", "#Hooks"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co.com/8P7GpWG/2.png",
+    "title": "JavaScript Asynchronous Programming Explained",
+    "author_img": "https://i.ibb.co.com/dg98XGX/boy2.jpg",
+    "author": "Jane Smith",
+    "posted_date": "2024-10-01",
+    "reading_time": 10,
+    "hashtags": ["#JavaScript", "#Async", "#Promises", "#WebDev"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co.com/YcFdhLQ/3.png",
+    "title": "Boosting React Performance: Tips and Tricks",
+    "author_img": "https://i.ibb.co.com/4JhnnX6/girl1.jpg",
+    "author": "Alex Johnson",
+    "posted_date": "2024-09-25",
+    "reading_time": 7,
+    "hashtags": ["#React", "#Performance", "#WebOptimization", "#JavaScript"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co.com/ynsT3W6/4.jpg",
+    "title": "JavaScript Debugging: Best Practices",
+    "author_img": "https://i.ibb.co.com/L9392cJ/girl2.jpg",
+    "author": "Emily Clark",
+    "posted_date": "2024-08-30",
+    "reading_time": 9,
+    "hashtags": [
+      "#JavaScript",
+      "#Debugging",
+      "#WebDevelopment",
+      "#BestPractices"
+    ]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co.com/4dtCbXs/blog-5.jpg",
+    "title": "Understanding React Router for Beginners",
+    "author_img": "https://i.ibb.co.com/L9392cJ/girl2.jpg",
+    "author": "Michael Lee",
+    "posted_date": "2024-09-10",
+    "reading_time": 6,
+    "hashtags": ["#React", "#JavaScript", "#Router", "#FrontendDevelopment"]
+  },
+  {
+    "id": 6,
+    "cover": "https://i.ibb.co.com/WvGhGfS/blog-6.jpg",
+    "title": "JavaScript ES6 Modules: How to Use Them",
+    "author_img": "https://i.ibb.co.com/L9392cJ/girl2.jpg",
+    "author": "Sarah Williams",
+    "posted_date": "2024-10-05",
+    "reading_time": 5,
+    "hashtags": ["#JavaScript", "#ES6", "#Modules", "#Frontend"]
+  }
+]
