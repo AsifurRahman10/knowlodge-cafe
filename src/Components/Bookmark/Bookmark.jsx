@@ -11,6 +11,7 @@ const Bookmark = ({ bookmark }) => {
 
 Bookmark.propTypes = {
   bookmark: PropTypes.object.isRequired,
+  handleMarkAsRead: PropTypes.func.isRequired,
 };
 
 export default Bookmark;

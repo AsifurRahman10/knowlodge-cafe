@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Blog = ({ blog, handleBookMark }) => {
+const Blog = ({ blog, handleBookMark, handleMarkAsRead }) => {
   const {
     cover,
     author_img,
@@ -14,7 +14,7 @@ const Blog = ({ blog, handleBookMark }) => {
     <div>
       <img className="w-full rounded-lg lg:h-[500px]" src={cover} alt="" />
       <div className="flex justify-between items-center">
-        <div className="flex gap-6 my-8 items-center">
+        <div className="flex gap-6 my-6 items-center">
           <img className="w-14" src={author_img} alt="" />
           <div>
             <p className="text-2xl font-bold">{author}</p>
@@ -57,17 +57,18 @@ const Blog = ({ blog, handleBookMark }) => {
           </span>
         ))}
       </div>
-      <a
-        className="font-bold text-xl text-[#6047EC] border-b-2 border-b-[#6047EC]"
-        href=""
+      <button
+        onClick={() => handleMarkAsRead(reading_time)}
+        className="mb-6 font-bold text-xl text-[#6047EC] border-b-2 border-b-[#6047EC]"
       >
-        <button className="mb-6">Mark as read</button>
-      </a>
+        Mark as read
+      </button>
     </div>
   );
 };
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
   handleBookMark: PropTypes.func.isRequired,
+  handleMarkAsRead: PropTypes.func.isRequired,
 };
 export default Blog;
