@@ -3,7 +3,6 @@ import "./App.css";
 import Blogs from "./Components/Blogs/Blogs";
 import Bookmarks from "./Components/Bookmars/Bookmarks";
 import Header from "./Components/Header/Header";
-import Bookmark from "./Components/Bookmark/Bookmark";
 
 function App() {
   const [bookMarks, setBookMarks] = useState([]);

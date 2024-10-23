@@ -51,7 +51,7 @@ const Blog = ({ blog, handleBookMark, handleMarkAsRead }) => {
         </div>
       </div>
       <h2 className="font-bold text-4xl my-4">{title}</h2>
-      <div className="flex gap-2 my-4">
+      <div className="flex gap-2 my-4 flex-wrap">
         {hashtags.map((hashtag, idx) => (
           <span key={idx} className="font-medium text-xl text-[#707070]">
             {hashtag}
