@@ -3,6 +3,7 @@ import "./App.css";
 import Blogs from "./Components/Blogs/Blogs";
 import Bookmarks from "./Components/Bookmars/Bookmarks";
 import Header from "./Components/Header/Header";
+import Bookmark from "./Components/Bookmark/Bookmark";
 
 function App() {
   const [bookMarks, setBookMarks] = useState([]);
@@ -11,8 +12,11 @@ function App() {
     const newBookmarks = [...bookMarks, blog];
     setBookMarks(newBookmarks);
   };
-  const handleMarkAsRead = (time) => {
+  const handleMarkAsRead = (time, id) => {
     setMakeAsRead(makeAsRead + time);
+    // remove
+    const removeBookmarks = bookMarks.filter((bookMark) => id !== bookMark.id);
+    setBookMarks(removeBookmarks);
   };
   return (
     <div className="w-10/12 mx-auto">
